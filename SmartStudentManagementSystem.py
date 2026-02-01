@@ -172,3 +172,4 @@ while True:
     else:
         print("choose between 1 to 8")
         print("Are you blind")
+# end of the project
