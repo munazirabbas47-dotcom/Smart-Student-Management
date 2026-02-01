@@ -26,7 +26,7 @@ cd Smart-Student-Management
 3.Run the main Python script:
 python SmartStudentManagementSystem.py
 
-4.Follow the on-screen menu to manage students.
+4.Follow the on-screen menu to manage students. 
 
 Special Notes:
     Roll numbers are automatically assigned and re-adjusted after deletion

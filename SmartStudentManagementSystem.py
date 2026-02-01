@@ -1,4 +1,4 @@
-# smart student managment system
+# Wellcome to our Smart student managment system
 students_list = []
 roll = 1
 
