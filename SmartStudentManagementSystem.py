@@ -2,6 +2,7 @@
 students_list = []
 roll = 1
 
+
 # add student
 def add_student():
     global roll
@@ -14,12 +15,16 @@ def add_student():
     marks6 = float(input("enter your Islamyat subject number : "))
     marks7 = float(input("enter your Quran Hakeem subject number : "))
 
-
-    student = {"roll": roll, "name": name, "marks": [marks1, marks2, marks3,marks4,marks5,marks6,marks7]}
+    student = {
+        "roll": roll,
+        "name": name,
+        "marks": [marks1, marks2, marks3, marks4, marks5, marks6, marks7],
+    }
     students_list.append(student)
     print("\nrecord sucessfull added")
     roll += 1
     return
+
 
 # view student
 def view_student():
@@ -27,7 +32,7 @@ def view_student():
         print("\n❌Student detailed not found❌")
         return
     for s in students_list:
-        print("\n✔===Student record found===✔")
+        print("\n✔===Student record founds===✔")
         print(f"roll : {s["roll"]} | Name :  {s["name"]} | Marks : {s["marks"]}")
 
 
@@ -100,6 +105,7 @@ def show_topper():
     print("Name :", topper["name"])
     print("Percentage :", max_percentage)
 
+
 # delete student
 def delete_student():
     if not students_list:
@@ -107,16 +113,15 @@ def delete_student():
         return
     roll = int(input("enter your roll number to delete student :"))
     for student in students_list:
-        if student["roll"] ==  roll:
+        if student["roll"] == roll:
             students_list.remove(student)
-            print("\n===Delete sucessfull===")
+            print("\n✔===Delete sucessfull===")
             break
     else:
-        print("\nRoll number did'n match")
+        print("\n❌Roll number did'n match")
         return
 
-
-# re assign all value
+    # re assign all value
     roll = 1
     for student in students_list:
         student["roll"] = roll
@@ -130,6 +135,7 @@ def clear_student():
         return
     students_list.clear()
     print("\n---clear sucessfull---")
+
 
 # main
 while True:
@@ -165,3 +171,4 @@ while True:
         break
     else:
         print("choose between 1 to 8")
+        print("Are you blind")

@@ -20,7 +20,7 @@ This is a Python-based project for managing student records, calculating results
    ```bash
    git clone https://github.com/munazirabbas47-dotcom/Smart-Student-Management.git
 
-2. Navigate to the project folder:
+2.Navigate to the project folder:
 cd Smart-Student-Management
 
 3.Run the main Python script:
