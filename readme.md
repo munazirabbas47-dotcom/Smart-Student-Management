@@ -16,7 +16,7 @@ This is a Python-based project for managing student records, calculating results
 
 ## How to Use
 
-1.Clone this repository:
+1. Clone this repository:
    ```bash
    git clone https://github.com/munazirabbas47-dotcom/Smart-Student-Management.git
 
